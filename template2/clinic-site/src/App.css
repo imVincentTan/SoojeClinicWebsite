@@ -1,0 +1,445 @@
+/* navigation bar */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background: #dddddd;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 10000;
+  display: block;
+  width: 100%;
+  height: 62px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #ffc40c;
+}
+
+.navbar .logo-and-name{
+  -webkit-font-smoothing: antialiased;
+
+  margin: 0;
+  margin-right: auto;
+
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  text-decoration: none;
+  color: #333333;
+}
+
+.navbar .right-side{
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  float: right;
+  top: 0px;
+  margin-top: 0px;
+  transition: color 200ms ease;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar .menu-option{
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color 200ms ease;
+  color: #fff;
+}
+
+.valign-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  position: relative;
+  display: flex;
+  height: 80vh;
+  margin-top: 60px;
+  margin-bottom: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #fff, #fff);
+  opacity: 1;
+}
+
+.intro-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.clinic-logo{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  clear: none;
+  font-weight: 400;
+}
+
+.big-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: .67em 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  text-align: center;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 60px;
+  line-height: 66px;
+  float: none;
+  text-transform: none;
+}
+
+.small-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  text-transform: none;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin-top: 41px;
+  margin-bottom: 25px;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.button{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  padding: 9px 15px;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  display: block;
+  width: 240px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: 2px solid #273c48;
+  background-color: transparent;
+  opacity: 1;
+  transition: background-color 108ms ease;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome-background-image-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  margin-top: 43px;
+  background-image: url("IMG_1339.JPG");
+}
+
+.welcome-caption-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.caption-text{
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 14px;
+  background-image: linear-gradient(180deg, rgba(42, 42, 42, 0.7), rgba(42, 42, 42, 0.7));
+  font-family: Lato, Arial, sans-serif;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.welcome-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  position: relative;
+  z-index: 100;
+  margin-top: -250px;
+  margin-bottom: 0px;
+  padding: 20px 60px;
+  background-color: #fff;
+}
+
+.welcome-text-container .big-text{
+  align-self: center;
+
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  width: auto;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.welcome-text-container .medium-text{
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-bottom: 52px;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.welcome-text-container .button{
+  margin: 0;
+}
+
+.featured-content-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  margin-bottom: 120px;
+}
+
+.featured-content-container .big-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin: .67em 0;
+  margin-top: 40px;
+  line-height: 44px;
+  text-align: center;
+  display: block;
+  height: 44px;
+  margin-bottom: 30px;
+  background-color: #ffc40c;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.featured-subsections-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  border-style: none;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.featured-section-valign-wrapper{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 33.33333333%;
+  border-style: none;
+  border-top-width: 1px;
+  border-top-color: #000;
+}
+
+.featured-section-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  padding-top: 14px;
+  float: none;
+  border-top: 1px solid #ffc40c;
+}
+
+.featured-section-header{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 9px;
+  font-weight: 700;
+  padding-left: 0px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.featured-section-subheader{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-top: 10px;
+  float: none;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.4px;
+  text-transform: none;
+  transition: color 200ms ease;
+  color: #2a2a2a;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.feature-section-subtext{
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  font-family: Lato, Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  font-style: italic;
+  text-align: left;
+}
