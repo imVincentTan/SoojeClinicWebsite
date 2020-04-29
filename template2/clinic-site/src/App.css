@@ -202,6 +202,10 @@
   text-transform: uppercase;
 }
 
+/*******************/
+/* welcome content */
+/*******************/
+
 .welcome-background-image-container{
   -webkit-font-smoothing: antialiased;
   font-family: Lato, Arial, sans-serif;
@@ -305,10 +309,45 @@
 }
 
 .welcome-text-container .button{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  padding: 9px 15px;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  width: 240px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: 2px solid #273c48;
+  background-color: transparent;
+  opacity: 1;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: background-color 242ms ease;
+  
   margin: 0;
 }
 
+/********************/
+/* featured content */
+/********************/
+
 .featured-content-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
   -webkit-font-smoothing: antialiased;
   font-family: Lato, Arial, sans-serif;
   color: #2a2a2a;
@@ -324,6 +363,8 @@
 }
 
 .featured-content-container .big-text{
+  width: 100%;
+
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
   box-sizing: border-box;
@@ -356,7 +397,7 @@
   margin-right: -10px;
 }
 
-.featured-section-valign-wrapper{
+.content-valign-wrapper{
   -webkit-font-smoothing: antialiased;
   font-family: Lato, Arial, sans-serif;
   color: #2a2a2a;
@@ -442,4 +483,789 @@
   font-size: 13px;
   font-style: italic;
   text-align: left;
+}
+
+/******************/
+/* normal content */
+/******************/
+
+.grey-section{
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f4f4f2;
+}
+
+.grey-section .valign-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: auto;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 940px;
+  background-image: unset;
+  background-color: inherit;
+}
+
+.grey-section .valign-wrapper .big-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin: .67em 0;
+  margin-bottom: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 0px;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: none;
+}
+
+.grey-section .valign-wrapper .medium-text{
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  box-sizing: border-box;
+  display: block;
+  width: 800px;
+  margin-top: -19px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.content-template-1{
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-top: 57px;
+  margin-bottom: 57px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.content-template-1 .main-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  width: 41.66666667%;
+  height: 488px;
+  padding-top: 156px;
+  padding-right: 49px;
+  padding-left: 49px;
+  background-color: #fff;
+}
+
+.content-template-1 .main-text-container .big-text{
+  width: auto;
+
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+.content-template-1 .main-text-container .medium-text{
+  width: auto;
+  text-align: left;
+
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+.content-template-1 .main-text-container .button{
+  margin-right: 0;
+  margin-left: 0;
+
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  padding: 9px 15px;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: 2px solid #273c48;
+  transition: background-color 108ms ease;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: 0;
+  opacity: 1;
+  color: #273c48;
+  display: inline-block;
+  width: 222px;
+  margin-top: 52px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+}
+
+.content-template-1 .main-picture-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  width: 58.33333333%;
+  height: 488px;
+  padding: 274px 40px 40px;
+  background-image: linear-gradient(0deg, #2d2d2d, transparent 70%), url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/5bfc3f40e71e88411b9b8dd7_BE%20BOLD.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.content-template-1 .main-picture-container .big-text{
+  width: auto;
+  text-align: left;
+
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content-template-1 .main-picture-container .medium-text{
+  width: auto;
+  text-align: left;
+
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.content-template-2{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.content-template-2 .content-valign-wrapper{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+}
+
+.content-template-2 .content-valign-wrapper .content-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content-template-2 .content-valign-wrapper .content-container .image-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  height: 242px;
+  border-style: none;
+  border-width: 8px 1px 1px;
+  border-color: #ffc40c #000 #000;
+  background-color: #fff;
+  background-image: url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/59d69e595c1d490001112530_toolkit.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform-style: preserve-3d;
+  transition: transform 200ms ease 0s;
+  transform: scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.content-template-2 .content-valign-wrapper .content-container .text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+  z-index: 5;
+  padding: 52px 31px;
+  border-top: 8px solid #ffc40c;
+  background-color: #f4f4f2;
+  transition: background-position 100ms ease;
+}
+
+.content-template-2 .content-valign-wrapper .content-container .text-container .big-text{
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+.content-template-2 .content-valign-wrapper .content-container .text-container .medium-text{
+  text-align: left;
+  width: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+.content-template-3{
+  display: flex;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+}
+
+.content-template-3 .text-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  width: 50%;
+  padding: 101px 133px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  background-color: #ffc40c;
+}
+
+.content-template-3 .text-container .big-text{
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-weight: 100;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  align-self: center;
+  -webkit-box-flex: 0;
+  flex: 0 auto;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #2a2a2a;
+  letter-spacing: 2px;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.content-template-3 .image-container{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  position: static;
+  display: block;
+  background-image: url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/59f8cb1901b9500001e7a3ad_HomeA.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-template-4{
+  display: flex;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.content-template-4 .content-valign-wrapper{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width:940px;
+  max-width: 940px;
+  padding-right: 161px;
+  padding-left: 161px;
+}
+
+.content-template-4 .content-valign-wrapper .big-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.content-template-4 .content-valign-wrapper .medium-text{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #979797;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content-template-4 .content-valign-wrapper .button{
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  display: block;
+  width: 250px;
+  height: auto;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 18px 0px;
+  background-color: #ffc40c;
+  transition: background-color 125ms ease;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/******************/
+/* footer section */
+/******************/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: static;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f4f4f2;
+}
+
+.footer .content-valign-wrapper {
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+  max-width: 940px;
+}
+
+.footer .content-valign-wrapper .content-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .content-valign-wrapper .content-container .company-info{
+  max-width: 380px;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-top: 53px;
+}
+
+.footer .content-valign-wrapper .content-container .company-info .big-text{
+  text-align: start;
+  
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  text-transform: none;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-family: Lato, Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.footer .content-valign-wrapper .content-container .contact-us{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  margin-top: 68px;
+  color: #273c48;
+}
+
+.footer .content-valign-wrapper .content-container .contact-us .big-text{
+  margin: 0;
+  text-align: start;
+
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.footer .content-valign-wrapper .content-container .contact-us .medium-text{
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  margin-top: 68px;
+  padding-top: 0px;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us .big-text{
+  margin: 0;
+  text-align: start;
+
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us .socials-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us .socials-container .facebook{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: underline;
+  max-width: 100%;
+  position: static;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  float: none;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: #273c48;
+  background-image: url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/59d54d920116ac0001969f0c_facebook.png");
+  background-position: 50% 50%;
+  background-size: 11px;
+  background-repeat: no-repeat;
+  transition: all 200ms ease;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us .socials-container .twitter{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: underline;
+  max-width: 100%;
+  position: static;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: #273c48;
+  background-image: url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/59d54d90965779000179d122_twitter.png");
+  background-position: 50% 50%;
+  background-size: 21px;
+  background-repeat: no-repeat;
+  transition: all 200ms ease;
+}
+
+.footer .content-valign-wrapper .content-container .follow-us .socials-container .instagram{
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+  box-sizing: border-box;
+  text-decoration: underline;
+  max-width: 100%;
+  height: 40px;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: #273c48;
+  outline: 0;
+  position: static;
+  display: inline-block;
+  width: 40px;
+  float: none;
+  border-right-style: solid;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transition: opacity 200ms ease;
+  background-image: url("https://uploads-ssl.webflow.com/59d5399de966f4000142dd2e/59d54d917ed19800019cf004_insta.png");
+  background-size: 18px;
+}
+
+.footer .content-valign-wrapper .content-container .supported-by .big-text{
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+  color: #273c48;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .content-valign-wrapper .content-container-2{
+  justify-content: flex-start;
 }

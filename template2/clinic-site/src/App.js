@@ -50,7 +50,7 @@ function App() {
       <div class="featured-content-container">
         <p class="big-text">Featured Content</p>
         <div class="featured-subsections-container">
-          <div class="featured-section-valign-wrapper">
+          <div class="content-valign-wrapper">
             <div class="featured-section-container">
               <p class="featured-section-header">recent article</p>
               <p class="featured-section-subheader">doctors are lifechangers</p>
@@ -58,7 +58,7 @@ function App() {
             </div>
           </div>
 
-          <div class="featured-section-valign-wrapper">
+          <div class="content-valign-wrapper">
             <div class="featured-section-container">
               <p class="featured-section-header">ongoing event</p>
               <p class="featured-section-subheader">local clinic impact health</p>
@@ -66,7 +66,7 @@ function App() {
             </div>
           </div>
 
-          <div class="featured-section-valign-wrapper">
+          <div class="content-valign-wrapper">
             <div class="featured-section-container">
               <p class="featured-section-header">featured contributor</p>
               <p class="featured-section-subheader">Dr. Kim</p>
@@ -76,6 +76,102 @@ function App() {
         </div>
       </div>
 
+      {/* normal content */}
+      <div class="grey-section">
+        <div class="valign-wrapper">
+          <p class="big-text">Start Getting Healthy!</p>
+          <p class="medium-text">Improve the quality of your blood.</p>
+          <div class="content-template-1">
+            <div class="main-text-container">
+              <div class="big-text">Collaborations</div>
+              <div class="medium-text">Contribute your proven treatments to a group of scholars to be peer reviewed to develop the best solutions.</div>
+              <div class="button" href="/">collaborate</div>
+            </div>
+            <div class="main-picture-container">
+              <p class="big-text">most recent collaboration</p>
+              <p class="medium-text">How can we improve communication between patient and doctor to better support health regimens?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="valign-wrapper">
+          <div class="content-template-2">
+            <div class="content-valign-wrapper">
+              <div class="content-container">
+                <div class="image-container">
+
+                </div>
+                <div class="text-container">
+                  <div class="big-text">Option 1</div>
+                  <div class="medium-text">This is some text regarding option 1. Should be clickable.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-valign-wrapper">
+              <div class="content-container">
+                <div class="image-container">
+
+                </div>
+                <div class="text-container">
+                  <div class="big-text">Option 2</div>
+                  <div class="medium-text">This is some text regarding option 2. Should be clickable.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-template-3">
+        <div class="text-container">
+          <div class="big-text">We are a community of 10,000 doctors nationwide, and over 100,000 patients across the globe.</div>
+        </div>
+        <div class="image-container"></div>
+      </div>
+
+      <div class="content-template-4">
+        <div class="content-valign-wrapper">
+          <div class="big-text">"There is shared belief among doctors todat that the status quo is that health comes from the blood, and we are able to do something about it."</div>
+          <div class="medium-text">- Dr. Kim, Sooje clinic founder</div>
+          <div class="button">Join us</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="content-valign-wrapper">
+          <div class="content-container">
+            <div class="company-info">
+              <img src={logo_and_name} alt="Sooje Clinic Logo"/>
+              <div class="big-text">A clinic in seoul, south korea that promotes healthy lifestyle and provides treatment programs for patients.</div>
+            </div>
+
+            <div class="contact-us">
+              <div class="big-text">contact us</div>
+              <div class="medium-text">terms and conditions</div>
+              <div class="medium-text">privacy policy</div>
+              <div class="medium-text">cookies policy</div>
+            </div>
+
+            <div class="follow-us">
+              <div class="big-text">follow us</div>
+              <div class="socials-container">
+                <div class="facebook"></div>
+                <div class="twitter"></div>
+                <div class="instagram"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-valign-wrapper">
+          <div class="content-container">
+            <div class="supported-by">
+              <div class="big-text">supported by</div>
+              <div class="vincent-logo">vincent!</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
